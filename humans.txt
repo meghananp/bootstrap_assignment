@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+                            
+Your title: Website to book movie tickets made resonsive using bootstrap.                            
+Site: meghananpmegha@gmail.com, https://github.com/meghananp/exercise2.                                                   
+Location: Bengaluru.
+
+# THANKS
+Ximanta
+Dinesh Metkari
+
+# TECHNOLOGY COLOPHON
+HTML5, CSS3

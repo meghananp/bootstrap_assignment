@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>bookmyshow</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="col-sm-12">
+
+<!--Navigation bar along with the logo-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top nav_new">
+  <a class="navbar-brand" href="#"> <img class="logo" src="images/logo.jpg" alt="logo"/> </a>
+  <ul class="navbar-nav">
+    <li class="nav-item list">
+      <a class="nav-link" href="#">experience</a>
+    </li>
+    <li class="nav-item list">
+      <a class="nav-link" href="#">event</a>
+    </li>
+    
+    <li class="nav-item list">
+      <a class="nav-link" href="#">movies</a>
+    </li>
+    <li class="nav-item list">
+      <a class="nav-link" href="#">shows</a>
+    </li>
+
+    <li class="nav-item list">
+      <a class="nav-link" href="sign_in/sign.html">sign in/ sign up</a>
+    </li>
+  
+    <li>
+      <form class="form-inline" action="/action_page.php">
+        <input class="form-control" type="text" placeholder="Search">
+        <button class="btn btn-danger" type="submit">Search</button>
+      </form>
+    </li>
+
+  </ul>
+
+</nav>
+
+<br>
+<br>
+<br>
+
+
+<!--slide show of the image that is a hero section witha button at the center to book ticket-->
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner inner1">
+    <div class="carousel-item active search_bar" data-interval="false">
+      <a href="#"> <img src="images/book.jpg" alt="Los Angeles" width="1100" height="404"> </a>
+      <div class="centered">
+        <button type="button" class="btn btn1"> book your tickets now</button>
+      </div>   
+    </div>
+
+  <!--  <div class="carousel-item search_bar">
+      <img src="images/chicago.jpg" alt="Chicago" width="1100" height="404">
+        <div class="centered">
+          <button type="button" class="btn btn1"> book your tickets now</button>
+        </div>
+    </div>
+
+    <div class="carousel-item search_bar">
+      <img src="images/la.jpg" alt="New York" width="1100" height="404">
+        <div class="centered">
+          <button type="button" class="btn btn1"> book your tickets now</button>
+        </div>
+    </div>  -->   
+
+  </div> 
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+</div>
+</div>
+
+<br>
+<br>
+
+    <!--Images with a hover over them to book tickets for events-->
+    <div class="row">
+      <div class="col container">
+        <img class="log image" src="images/img7.png" alt="Avatar">
+        <div class="overlay">
+        <button class="btn text"> Book tickets </button>
+        </div>
+      </div>
+
+      <div class="col container">
+        <img class="log image1" src="images/img1.png" alt="Avatar">
+        <div class="overlay">
+        <button class="btn text"> Book tickets </button>
+        </div>
+      </div>
+
+      <div class="col container">
+        <img class="log image2" src="images/img2.png" alt="Avatar">
+        <div class="overlay">
+        <button class="btn text"> Book tickets </button>
+        </div>
+      </div>
+
+      <div class="col container">
+        <img class="log image3" src="images/img3.png" alt="Avatar">
+        <div class="overlay">
+        <button class="btn text"> Book tickets </button>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+    <!--Ratings of the movies in the first column-->
+    <div class="row">
+      <div class="col list-group move">
+        <h2>See the average ratings for reference</h2>
+        <a href="#" class="list-group-item"> Padmavat 83% </a>
+        <a href="#" class="list-group-item"> Bhagmathi 85% </a>
+        <a href="#" class="list-group-item"> Star wars 70% </a>
+        <a href="#" class="list-group-item"> Spiderman 95% </a>
+     </div> 
+
+      <div class="col container">
+        <img class="log image4" src="images/img4.png" alt="Avatar">
+        <div class="overlay">
+        <button class="btn text"> Book tickets </button>
+        </div>
+      </div>
+
+      <div class="col container">
+        <img class="log image5" src="images/img5.png" alt="Avatar">
+        <div class="overlay">
+        <button class="btn text"> Book tickets </button>
+        </div>
+      </div>
+
+      <div class="col container">
+        <img class="log image6" src="images/img6.png" alt="Avatar">
+        <div class="overlay">
+        <button class="btn text"> Book tickets </button>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+<!--footer with necessary elements-->
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-top p-y-2">
+    <div class="container-fluid">
+      <div class="row">
+        
+        <div class="col-md-12">
+          <div class="footer-title text-xs-center">
+          <h4 class="p-b-1">Contact Us</h4>
+        </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card card-primary">
+            <div class="card-header bg-dark text-white">Help</div>
+          </div>
+        </div><!--col-md-2-->
+          <div class="col-md-2">
+          <div class="card card-primary">
+            <div class="card-header bg-dark text-white">Social Media</div>
+          </div>
+        </div><!--col-md-2-->
+          <div class="col-md-2">
+          <div class="card card-primary">
+            <div class="card-header bg-dark text-white">Committees</div>
+          </div>
+        </div><!--col-md-2-->
+          <div class="col-md-2">
+          <div class="card card-primary">
+            <div class="card-header bg-dark text-white">Help Desk</div>
+          </div>
+        </div><!--col-md-2-->
+
+
+          <div class="col-md-2">
+          <div class="card card-primary">
+            <div class="card-header card-header bg-dark text-white">Contribute</div>
+          </div>
+        </div><!--col-md-2-->
+          <div class="col-md-2">
+          <div class="card card-primary">
+            <div class="card-header card-header bg-dark text-white">Join Communities</div>
+          </div>
+        </div><!--col-md-2-->
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Address</h4>
+          <address>
+                <ul class="list-unstyled">
+                  <li>
+                    Kuvempunagar<br>
+                    2nd main road<br>
+                    Hassan<br>
+                    573201<br>
+                  </li>
+                  <li>
+                    Phone: 0
+                  </li>
+                </ul>
+              </address>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Popular Services</h4>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="#">Payment Center</a></li>
+            <li><a href="#">Contact Directory</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">News and Updates</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Website Information</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Usage</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Webmaster</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Popular Departments</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Recreation</a></li>
+            <li><a href="#">Public Works</a></li>
+            <li><a href="#">Departments</a></li>
+    
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+
+          <!--copy rights section-->
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <!--Footer Bottom-->
+          <p class="text-xs-center">&copy; Copyright 2016 - India.  All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+</body>
+</html>
+
+
