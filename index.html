@@ -20,9 +20,26 @@
 
 <!--Navigation bar along with the logo-->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top nav_new">
-  <a class="navbar-brand" href="#"> <img class="logo" src="images/logo.jpg" alt="logo"/> </a>
+  <div class="container-fluid">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand"></a>
+        </div>
+
+<div class="collapse navbar-collapse" id="mainNavBar">
+
   <ul class="navbar-nav">
-    <li class="nav-item list">
+ 
+  
+    <li><a class="navbar-brand" href="#"> <img class="logo" src="images/logo.jpg" alt="logo"/> </a>
+    </li>
+      <li class="nav-item list">
       <a class="nav-link" href="#">experience</a>
     </li>
     <li class="nav-item list">
@@ -48,6 +65,8 @@
     </li>
 
   </ul>
+  </div>
+  </div>
 
 </nav>
 
@@ -67,29 +86,17 @@
   </ul>
   
   <!-- The slideshow -->
-  <div class="carousel-inner inner1">
-    <div class="carousel-item active search_bar" data-interval="false">
-      <a href="#"> <img src="images/book.jpg" alt="Los Angeles" width="1100" height="404"> </a>
-      <div class="centered">
-        <button type="button" class="btn btn1"> book your tickets now</button>
-      </div>   
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/la_new.jpg" alt="Los Angeles" width="1100" height="500">
     </div>
-
-  <!--  <div class="carousel-item search_bar">
-      <img src="images/chicago.jpg" alt="Chicago" width="1100" height="404">
-        <div class="centered">
-          <button type="button" class="btn btn1"> book your tickets now</button>
-        </div>
+    <div class="carousel-item">
+      <img src="images/chicago_new.jpg" alt="Chicago" width="1100" height="500">
     </div>
-
-    <div class="carousel-item search_bar">
-      <img src="images/la.jpg" alt="New York" width="1100" height="404">
-        <div class="centered">
-          <button type="button" class="btn btn1"> book your tickets now</button>
-        </div>
-    </div>  -->   
-
-  </div> 
+    <div class="carousel-item">
+      <img src="images/new.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
   
   <!-- Left and right controls -->
   <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -99,6 +106,7 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
+
 
 </div>
 </div>
